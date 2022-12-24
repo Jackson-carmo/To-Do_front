@@ -1,0 +1,64 @@
+.container {
+  height: 85%;
+  width: 85%;
+  margin: auto;
+}
+
+.badge {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  transition: .7s;
+}
+
+.badge:hover button {
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.badge button {
+  width: 50%;
+}
+
+.content {
+  width: 100%;
+}
+
+.novo-todo {
+  width: 100%;
+  margin: 3rem auto;
+  color: #fff;
+}
+
+.novo-todo:hover {
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.card {
+  color: #fff;
+  padding: 2%;
+  margin: auto;
+  margin-bottom: .8rem;
+  background-color: #302f2f;
+}
+
+p {
+  text-align: end;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.actions {
+  text-align: end;
+}
+
+.actions button {
+  margin: .5rem;
+}
+
+.roda-pe {
+  background-color: #424242;
+}

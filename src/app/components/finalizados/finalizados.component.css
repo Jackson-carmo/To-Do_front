@@ -1,0 +1,53 @@
+.container {
+  height: 85%;
+  width: 85%;
+  margin: auto;
+}
+
+h1 {
+  margin-top: 1rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.badge {
+  margin: 1.5rem auto;
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  transition: .7s;
+}
+
+.badge:hover button {
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.badge button {
+  width: 20%;
+}
+
+.content {
+  width: 100%;
+}
+
+.card {
+  color: #fff;
+  padding: 2%;
+  margin: auto;
+  margin-bottom: .8rem;
+  background-color: #302f2f;
+}
+
+p {
+  text-align: end;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.roda-pe {
+  background-color: #424242;
+}
